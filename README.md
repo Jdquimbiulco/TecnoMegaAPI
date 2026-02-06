@@ -1,4 +1,5 @@
 # TecnoMega API Redis
+# JUAN DIEGO QUIMBIULCO
 
 ## Objetivo
 API REST con Node.js + Express + Redis para catálogos y transacciones.
@@ -40,6 +41,3 @@ API REST con Node.js + Express + Redis para catálogos y transacciones.
 - pedidos: codigo, clienteId, fecha, subtotal, iva, total, estado
 - detalle_pedido: codigo, productoId, cantidad, detalle, precioUnit
 
-## Evidencias
-- Capturas Postman/Thunder Client
-- Respuesta con header `X-Response-Time`

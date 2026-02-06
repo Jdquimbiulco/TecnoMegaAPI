@@ -1,0 +1,50 @@
+{
+  "clientes": [
+    { "dni": "1001", "nombres": "Ana Torres", "email": "ana.torres@tecnomega.com", "telefono": "099111111", "edad": 29, "genero": "F" },
+    { "dni": "1002", "nombres": "Luis Perez", "email": "luis.perez@tecnomega.com", "telefono": "099222222", "edad": 34, "genero": "M" },
+    { "dni": "1003", "nombres": "Maria Rojas", "email": "maria.rojas@tecnomega.com", "telefono": "099333333", "edad": 27, "genero": "F" },
+    { "dni": "1004", "nombres": "Carlos Diaz", "email": "carlos.diaz@tecnomega.com", "telefono": "099444444", "edad": 41, "genero": "M" },
+    { "dni": "1005", "nombres": "Sofia Vega", "email": "sofia.vega@tecnomega.com", "telefono": "099555555", "edad": 31, "genero": "F" },
+    { "dni": "1006", "nombres": "Jorge Ruiz", "email": "jorge.ruiz@tecnomega.com", "telefono": "099666666", "edad": 36, "genero": "M" },
+    { "dni": "1007", "nombres": "Paula Mendez", "email": "paula.mendez@tecnomega.com", "telefono": "099777777", "edad": 24, "genero": "F" },
+    { "dni": "1008", "nombres": "Diego Herrera", "email": "diego.herrera@tecnomega.com", "telefono": "099888888", "edad": 38, "genero": "M" },
+    { "dni": "1009", "nombres": "Lucia Mora", "email": "lucia.mora@tecnomega.com", "telefono": "099999999", "edad": 26, "genero": "F" },
+    { "dni": "1010", "nombres": "Andres Leon", "email": "andres.leon@tecnomega.com", "telefono": "098101010", "edad": 33, "genero": "M" }
+  ],
+  "productos": [
+    { "codigo": "P100", "nombre": "Laptop Pro 14", "categoria": "Computadoras", "precio": 1200.50, "stock": 15 },
+    { "codigo": "P101", "nombre": "Mouse Inalambrico", "categoria": "Accesorios", "precio": 25.99, "stock": 120 },
+    { "codigo": "P102", "nombre": "Teclado Mecanico", "categoria": "Accesorios", "precio": 79.99, "stock": 60 },
+    { "codigo": "P103", "nombre": "Monitor 27" , "categoria": "Monitores", "precio": 199.99, "stock": 45 },
+    { "codigo": "P104", "nombre": "SSD 1TB", "categoria": "Almacenamiento", "precio": 110.00, "stock": 80 },
+    { "codigo": "P105", "nombre": "Router WiFi 6", "categoria": "Redes", "precio": 89.50, "stock": 50 },
+    { "codigo": "P106", "nombre": "Tablet 10", "categoria": "Tablets", "precio": 229.00, "stock": 30 },
+    { "codigo": "P107", "nombre": "Smartphone X", "categoria": "Telefonia", "precio": 699.00, "stock": 25 },
+    { "codigo": "P108", "nombre": "Auriculares BT", "categoria": "Audio", "precio": 59.90, "stock": 90 },
+    { "codigo": "P109", "nombre": "Webcam HD", "categoria": "Accesorios", "precio": 49.99, "stock": 70 }
+  ],
+  "pedidos": [
+    { "codigo": "PED001", "clienteId": "1001", "fecha": "2026-02-01", "subtotal": 1200.50, "iva": 144.06, "total": 1344.56, "estado": "pagado" },
+    { "codigo": "PED002", "clienteId": "1002", "fecha": "2026-02-02", "subtotal": 105.98, "iva": 12.72, "total": 118.70, "estado": "pagado" },
+    { "codigo": "PED003", "clienteId": "1003", "fecha": "2026-02-02", "subtotal": 199.99, "iva": 24.00, "total": 223.99, "estado": "pendiente" },
+    { "codigo": "PED004", "clienteId": "1004", "fecha": "2026-02-03", "subtotal": 110.00, "iva": 13.20, "total": 123.20, "estado": "enviado" },
+    { "codigo": "PED005", "clienteId": "1005", "fecha": "2026-02-03", "subtotal": 699.00, "iva": 83.88, "total": 782.88, "estado": "pagado" },
+    { "codigo": "PED006", "clienteId": "1006", "fecha": "2026-02-04", "subtotal": 229.00, "iva": 27.48, "total": 256.48, "estado": "pendiente" },
+    { "codigo": "PED007", "clienteId": "1007", "fecha": "2026-02-04", "subtotal": 25.99, "iva": 3.12, "total": 29.11, "estado": "pagado" },
+    { "codigo": "PED008", "clienteId": "1008", "fecha": "2026-02-05", "subtotal": 59.90, "iva": 7.19, "total": 67.09, "estado": "enviado" },
+    { "codigo": "PED009", "clienteId": "1009", "fecha": "2026-02-05", "subtotal": 49.99, "iva": 6.00, "total": 55.99, "estado": "pagado" },
+    { "codigo": "PED010", "clienteId": "1010", "fecha": "2026-02-06", "subtotal": 79.99, "iva": 9.60, "total": 89.59, "estado": "pendiente" }
+  ],
+  "detalle_pedido": [
+    { "codigo": "DP001", "productoId": "P100", "cantidad": 1, "detalle": "Laptop Pro 14", "precioUnit": 1200.50 },
+    { "codigo": "DP002", "productoId": "P101", "cantidad": 2, "detalle": "Mouse Inalambrico", "precioUnit": 25.99 },
+    { "codigo": "DP003", "productoId": "P103", "cantidad": 1, "detalle": "Monitor 27", "precioUnit": 199.99 },
+    { "codigo": "DP004", "productoId": "P104", "cantidad": 1, "detalle": "SSD 1TB", "precioUnit": 110.00 },
+    { "codigo": "DP005", "productoId": "P107", "cantidad": 1, "detalle": "Smartphone X", "precioUnit": 699.00 },
+    { "codigo": "DP006", "productoId": "P106", "cantidad": 1, "detalle": "Tablet 10", "precioUnit": 229.00 },
+    { "codigo": "DP007", "productoId": "P101", "cantidad": 1, "detalle": "Mouse Inalambrico", "precioUnit": 25.99 },
+    { "codigo": "DP008", "productoId": "P108", "cantidad": 1, "detalle": "Auriculares BT", "precioUnit": 59.90 },
+    { "codigo": "DP009", "productoId": "P109", "cantidad": 1, "detalle": "Webcam HD", "precioUnit": 49.99 },
+    { "codigo": "DP010", "productoId": "P102", "cantidad": 1, "detalle": "Teclado Mecanico", "precioUnit": 79.99 }
+  ]
+}
